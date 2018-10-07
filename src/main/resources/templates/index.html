@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>this is the title</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<p>This is the chatbot initial page</p>
+    <div class="chat">
+
+      <div class="messages"></div>
+      <div id="edge"></div>
+
+      <form class="actions">
+        <input type="text" placeholder="press Enter to send…">
+      </form> 
+
+    </div>
+ 
+    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../static/ja/script.js" th:src="@{/js/script.js}"> </script>
+</body>
+</html>
